@@ -12,23 +12,23 @@ const Proyectos = () => {
     <main className="flex min-h-screen flex-col items-center justify-between p-10 w-auto">
     <LetrasEffect/>
     <div className='container flex justify-center w-auto'>
-    <Link href="/proyectos/next" className='logo ml-8 no-underline'>
+    <Link href="/proyectos/next" className='logo ml-8'>
     <NextLogo></NextLogo>
    </Link>
     </div>
     <div className="container flex justify-center w-auto md:gap-72 overflow-visible">
-   <Link href="/proyectos/javaScript" className='logo js mr-[-40px] md:mr-0 no-underline'>
+   <Link href="/proyectos/javaScript" className='logo js mr-[-40px] md:mr-0 '>
    <JsLogo></JsLogo>
    </Link> 
-   <Link href="/proyectos/react" className='logo react no-underline'>
+   <Link href="/proyectos/react" className='logo react '>
     <ReactLogo></ReactLogo>
    </Link>
-   <Link href="/proyectos/angular" className='logo ng ml-[-40px] md:ml-0 no-underline'>
+   <Link href="/proyectos/angular" className='logo ng ml-[-40px] md:ml-0 '>
    <AngularLogo></AngularLogo>
    </Link>
     </div>
     <div className='container flex justify-center mb-[30px] mt-16'>
-    <Link href="/proyectos/c" className='logo c no-underline'>
+    <Link href="/proyectos/c" className='logo c'>
      <CLogo></CLogo>
    </Link>
     </div>
