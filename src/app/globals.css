@@ -91,7 +91,7 @@ body {
   white-space: nowrap;
   border-right: 3px solid;
   overflow: hidden;
-  width: 6ch;
+  width: 5.3ch;
   animation: typing 1s steps(6) forwards,
              blink .5s infinite step-end alternate,
              fadeOut 0.2s 4s forwards;

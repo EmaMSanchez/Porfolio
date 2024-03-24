@@ -1,4 +1,6 @@
 "use client"
+import LetrasEffect2 from '@/components/LetrasEffect2';
+import Titulo from '@/components/Titulo';
 import React, { useState } from 'react'
 
 const Contacto = () => {
@@ -18,23 +20,10 @@ const Contacto = () => {
 
   return (
     <main className="flex-col items-center justify-center p-10 ">
-      <h1 className="font-extrabold text-5xl text-center w-auto">Contacto</h1>
-      <div className="text-center items-center justify-center mt-10">
-        <p className='text-center w-auto'>
-          Estoy en busca de futuras oportunidades para contribuir con proyectos que desafíen e inspiren.
-        </p>
-        <p className='text-center w-auto'>
-        Me entusiasma la posibilidad de trabajar con ustedes y llevar sus ideas al siguiente nivel.
-        </p>
-        <p className='text-center w-auto'>
-          ¡No dudes en ponerte en contacto!
-        </p>
-        <p className='text-center w-auto'>
-          ¡Hagamos que tu visión cobre vida en el mundo <span></span> digital!
-        </p>
-      </div>
+      <Titulo/>
+      <LetrasEffect2/>
       <div className='flex flex-col items-center justify-center mt-10'>
-        <button className='boton border-[1px] border-red-600 rounded-[4px]' onClick={()=>mail()}>CONTACTO</button>
+        <button className='boton border-[1px] border-red-600 rounded-[4px]' onClick={()=> mail()}>CONTACTO</button>
       </div>
       <div className='mt-14 border-b-[1px] border-red-600 justify-center items-center w-auto'></div>
       <div className='flex flex-row items-center justify-center gap-16 mt-6'>
