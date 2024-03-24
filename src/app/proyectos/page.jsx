@@ -16,14 +16,14 @@ const Proyectos = () => {
     <NextLogo></NextLogo>
    </Link>
     </div>
-    <div className="container flex justify-center w-full md:gap-72 overflow-visible">
-   <Link href="/proyectos/javaScript" className='logo js  '>
+    <div className="container flex justify-center w-auto md:gap-72 overflow-visible">
+   <Link href="/proyectos/javaScript" className='logo js mr-[-40px] md:mr-0 '>
    <JsLogo></JsLogo>
    </Link> 
    <Link href="/proyectos/react" className='logo react '>
     <ReactLogo></ReactLogo>
    </Link>
-   <Link href="/proyectos/angular" className='logo ng '>
+   <Link href="/proyectos/angular" className='logo ng ml-[-40px] md:ml-0 '>
    <AngularLogo></AngularLogo>
    </Link>
     </div>
